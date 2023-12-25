@@ -6,5 +6,5 @@ if type(int(x)) is type(1):
     print(f'Wprowadzono liczbę {x}')
 else:
     print('To nie jest liczba całkowita')
-input('Kliknij enter aby wyjść zprogramu')
+input('Kliknij enter aby wyjść z programu...')
 
