@@ -1,7 +1,7 @@
 """main file for project """
 
 x = input('Wprowadż liczbę całkowitą...')
-if type(int(x)) is type(1):
+if  x.isnumeric():
     x = int(x)
     print(f'Wprowadzono liczbę {x}')
 else:
